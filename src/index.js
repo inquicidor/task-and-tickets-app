@@ -9,6 +9,7 @@ import {initialState} from './session/initialState'
 import {StateProvider} from './session/store';
 import sessionReducer from './session/reducers/sessionReducer';
 
+import {mainReducer} from './session/reducers'
 
 //const FirebaseContext = React.createContext();
 
